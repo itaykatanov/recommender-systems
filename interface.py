@@ -1,4 +1,5 @@
 from numpy import sqrt, square, array
+from tqdm import tqdm
 
 
 class Regressor:
@@ -13,7 +14,7 @@ class Regressor:
 
     def calculate_rmse(self, data: array):
         e = 0
-        for row in data:
+        for row in tqdm(data):
             user, item, rating = row
             e += square(rating - self.predict_on_pair(user, item))
         return sqrt(e / data.shape[0])

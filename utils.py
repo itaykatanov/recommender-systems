@@ -10,7 +10,6 @@ def get_data():
     if in the validation set there is an index that does not appear in the train set then we can put np.nan or
      other indicator that tells us that.
     """
-    # return train, validation
     return train, validation
 
 

@@ -1,7 +1,6 @@
 from interface import Regressor
 from utils import get_data
 
-
 class SimpleMean(Regressor):
     def __init__(self):
         self.user_means = {}

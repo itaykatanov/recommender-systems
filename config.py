@@ -18,6 +18,7 @@ RATINGS_COL_INDEX = 2
 BASELINE_PARAMS_FILE_PATH = 'learned_paramaters/baseline_params.pickle'
 
 CORRELATION_PARAMS_FILE_PATH = 'learned_paramaters/correlation_params.csv'
+CORRELATION_PARAMS_FILE_PATH_RAMI = 'learned_paramaters/correlation_params_RAMI.csv'
 CSV_COLUMN_NAMES = ['item_1', 'item_2', 'sim']
 
 
